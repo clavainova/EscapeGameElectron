@@ -29,8 +29,8 @@ import { signin } from './authRequest.js';
                     console.error(err);
                 }
             );
-            e.preventDefault();
 
         }
+        e.preventDefault();
     });
 })()

@@ -1,4 +1,3 @@
-
 let jwt = undefined;
 let authData = {};
 module.exports = {
@@ -18,6 +17,4 @@ module.exports = {
     getAuthData: () => {
         return authData;
     }
-
-
 }

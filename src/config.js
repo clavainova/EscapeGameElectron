@@ -5,7 +5,7 @@ const conf = dotenv.config({
 });
 
 if (conf.error) {
-    throw new Error(conf.error.message);
+    //throw new Error(conf.error.message);
 }
 
 module.exports = {
